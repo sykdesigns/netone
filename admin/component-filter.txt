@@ -1,0 +1,17 @@
+Filter Criteria:
+
+Values filled from data: multiselect w/ checkboxes
+Position
+Industry
+Duration
+Hours per week
+
+Boolean Values: Yes / No
+Background Check
+Travel Requirements
+
+
+Location: slider (miles) from user location {zip code?}
+
+Billing Rate: slider min - max
+

@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    position: relative;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: radial-gradient(#3A4D81 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    z-index: -1;
+} */
+
+.bg-custom-gradient {
+    background-color: #fff;
+    opacity: 1;
+    background-image: radial-gradient(#3A4D81 0.5px, #fff 0.5px);
+    background-size: 10px 10px;
+    z-index: -1;
+  }
+  
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    height: 100px; /* Adjust the height to fit your design */
+  }
+  
+  .scroll-row {
+    display: flex;
+    animation: scroll 30s linear infinite;
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .scroll-row.second {
+    animation-duration: 45s; /* Different timing for the second row */
+  }
+  
+  .scroll-row img {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between logos */
+  }
+  

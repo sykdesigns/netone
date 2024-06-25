@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-custom-gradient {
+    background-color: #717B97;
+    opacity: 1;
+    background-image: radial-gradient(#3A4D81 0.45px, #fff 0.45px);
+    background-size: 20px 20px;
+    z-index: -1;
+  }
+  
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    height: 100px; /* Adjust the height to fit your design */
+  }
+  
+  .scroll-row {
+    display: flex;
+    animation: scroll 30s linear infinite;
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .scroll-row.second {
+    animation-duration: 45s; /* Different timing for the second row */
+  }
+  
+  .scroll-row img {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between logos */
+  }
+  

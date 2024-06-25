@@ -1,0 +1,24 @@
+// src/JobDetailsModal.jsx
+import React from 'react';
+
+const JobDetailsModal = ({ job, onClose }) => {
+  if (!job) return null;
+
+  return (
+    <div className="fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50">
+      <div className="bg-white w-10/12 h-5/6 rounded-lg p-4 overflow-auto">
+        <button onClick={onClose} className="bg-red-500 text-white px-4 py-2 rounded mb-4">Close</button>
+        <h2 className="text-xl mb-4">Job Details</h2>
+        {/* Display job details here */}
+        <p>{job.position}</p>
+        <p>{job.industry}</p>
+        <p>{job.location}</p>
+        <p>{job.projectSummary}</p>
+        <p>{job.billingRateW2}</p>
+        <p>{job.billingRateIC}</p>
+      </div>
+    </div>
+  );
+};
+
+export default JobDetailsModal;

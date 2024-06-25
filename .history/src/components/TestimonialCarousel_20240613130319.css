@@ -1,0 +1,33 @@
+/* src/components/TestimonialCarousel.css */
+
+.hidden {
+    display: none;
+  }
+  .duration-700 {
+    transition-duration: 700ms;
+  }
+  .ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .block {
+    display: block;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .top-1/2 {
+    top: 50%;
+  }
+  .left-1/2 {
+    left: 50%;
+  }
+  .transform {
+    transform: translate(-50%, -50%);
+  }
+  
