@@ -71,8 +71,8 @@ const JobAppModal = ({ job, onClose }) => {
         
 
             <div className="flex p-4 items-center justify-center mt-2 font-custom">
-            <button className="border border-n1-blue bg-n1-white px-7 py-2 rounded-full text-sm sm:text-base hover:bg-n1-orange hover:text-n1-white hover:border-n1-white" onClick={onClose}>Cancel</button>
-            <button className="ml-2 bg-n1-orange px-7 py-2 rounded-full text-sm sm:text-base text-n1-white pointer-events-none text-gray-400 cursor-not-allowed">Submit</button>
+            <button className="border border-n1-blue bg-n1-white px-7 py-2 rounded-full text-sm hover:bg-n1-orange hover:text-n1-white hover:border-n1-white" onClick={onClose}>Cancel</button>
+            <button className="ml-2 bg-n1-orange px-7 py-2 rounded-full text-n1-white pointer-events-none text-gray-400 cursor-not-allowed">Submit Application</button>
             </div>
       
       

@@ -68,8 +68,8 @@ const JobSearchPage = () => {
         <main className="p-2 flex-grow bg-n1-white">
          
           <div className="m-2 font-custom">
-            <div className='flex items-center md:ml-12 mb-4'>
-              <div className='text-n1-white bg-n1-orange rounded-full w-8 h-8 flex items-center justify-center text-sm mr-2'>{filteredJobs.length}</div>
+            <div className='flex items-center ml-12 mb-4'>
+              <div className='text-n1-white bg-n1-orange rounded-full w-8 h-8 flex items-center md:justify-center text-sm mr-2'>{filteredJobs.length}</div>
               <h1 className='text-lg text-n1-blue font-demiBold'>Jobs Available</h1>
             </div>
           </div>

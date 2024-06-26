@@ -8,7 +8,7 @@ const HomeGigEconomy = () => {
 
         <section id='gig-economy' className='bg-n1-blue'>
 
-            <div className="w-full flex flex-col items-center text-n1-white p-4 pt-8 mb-6">
+            <div className="w-full flex flex-col items-center text-n1-white p-4">
                 <h2 className="text-xl sm:text-2xl uppercase text-center tracking-wider font-custom mb-2">we power the gig economy</h2>
                 <p className="tracking-wide leading-relaxed text-sm sm:text-lg w-full text-center">By connecting talent leaders directly to our community of contract recruiters with an easy-to-use, seamless, digital platform.</p>
             </div>
