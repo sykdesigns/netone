@@ -29,7 +29,7 @@ const HeroComponent = () => {
                 Cloud-based access to world-class IT professionals and recruiters.
                 </p>
                 <button className='text-n1-white bg-n1-orange rounded-full px-5 py-3 w-full flex items-center justify-between' onClick={handleNavigateToJobs}>
-                Hire Talent <FaRegArrowAltCircleRight className='text-lg' />
+                Search Jobs <FaRegArrowAltCircleRight className='text-lg' />
                 </button>
             </div>
 
